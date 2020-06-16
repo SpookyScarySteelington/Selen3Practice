@@ -16,7 +16,7 @@ namespace SeleniumBasic
 
         public IWebElement SearchBox => driver.FindElement(By.CssSelector("input[title*=\"Search\"]"));
 
-        public IWebElement SearchButton => driver.FindElement(By.XPath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]"));
+        public IWebElement SearchButton => driver.FindElement(By.XPath(@"/html/body/div/div[3]/form/div[2]/div[1]/div[3]/center/input[1]"));
 
         private string url = "http://www.google.com";
 
